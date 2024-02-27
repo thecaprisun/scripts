@@ -31,11 +31,12 @@ cp -r polybar ~/.config
 cp -r tofi ~/.config
 cp -r hypr ~/.config
 cp -r dunst ~/.config
-cp -r .zshrc ~
+cp -r  ~/.config
+cp -r .tmux.config ~
 
 # Installing needed packages
 
-sudo pacman -S alacritty i3 neovim waybar hyprland polybar dunst firefox zsh lsd hyprpaper gdm networkmanager
+sudo pacman -S alacritty i3 neovim waybar i3 polybar dunst firefox zsh lsd hyprpaper gdm networkmanager
 yay -S tofi spotify prismlauncher compfy
 
 # Systemctl
