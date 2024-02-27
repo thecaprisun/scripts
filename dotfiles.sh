@@ -8,6 +8,7 @@ cp -r ~/.config/tofi ~/dotfiles
 cp -r ~/.config/waybar ~/dotfiles
 cp -r ~/.config/dunst ~/dotfiles
 cp -r ~/.zshrc ~/dotfiles
+cp -r ~/.tmux.config ~/dotfiles
 
 cd ~/dotfiles 
 git add --all
